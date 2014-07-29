@@ -1,7 +1,7 @@
 # Original script from http://stackoverflow.com/questions/3898574/google-search-using-python-script
 
 import urllib2
-import urllib.urlencode
+import urllib
 import json
 query = raw_input ( 'Query: ' )
 query = urllib.urlencode ( { 'q' : query } )
