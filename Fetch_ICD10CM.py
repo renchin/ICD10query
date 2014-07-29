@@ -12,7 +12,7 @@ list1 = json.loads(response)
 results = list1['responseData'] ['results']
 
 for result in results:
-    title = result['title']
+    title = result['titleNoFormatting']
     code = title.split()
     url = result['url']   
     print code[4]
